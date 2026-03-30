@@ -9,6 +9,8 @@ editor: visual
 
 library(tidyverse)
 library(nycflights13)
+embed-resources: TRUE
+
 
 flights |> 
   filter(dest == "IAH") |> 
